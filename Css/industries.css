@@ -1,0 +1,108 @@
+.divlocation{
+    height:150px;
+}
+.spantextdiv{
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+    margin:30px;
+}
+@media (min-width:200px)and (max-width: 700px) {
+    .spantextdiv {
+     display:flex;
+     flex-direction: column;
+     justify-content: space-between;
+     align-items: flex-start;
+       /* New font size for screens less than 600px */
+    }
+  }
+.spantext{
+    max-width: 50vw;
+    font-size: 18px;
+    margin:30px;
+}
+.industrypagecarddiv{
+    height: 100%;
+    display:flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+    align-items: flex-start;
+    padding:70px 30px 50px 30px;
+    background-color: rgb(162, 202, 218);
+}
+@media (min-width:200px)and (max-width: 700px) {
+    .industrypagecarddiv {
+     display:flex;
+     flex-direction: column;
+     justify-content: space-between;
+     align-items: flex-start;
+     flex-wrap: wrap;
+       /* New font size for screens less than 600px */
+    }
+  }
+
+  .industrycard{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 05px;
+    margin:10px;
+    padding:50px 30px 10px 20px;
+    height:350px;
+    /* margin-bottom:-0px; */
+  }
+  .industrycardhead{
+    font-size: 24px;
+  }
+  .textspan{
+    font-size:14px;
+  }
+  .carddivrow2fortopmargin{
+    margin-top: -120px;
+  }
+  .redbackgrounddiv{
+    background-color: rgb(255, 50, 50);
+    width: 100%;
+    height:350px;
+    margin-top: 10px;
+    border-radius:05px ;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left:40px;
+  }
+  .white{
+    color:white;
+  }
+  #letusknow{
+    color:aliceblue;
+  }
+  #row7{
+    margin:30px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+  }
+  @media (min-width:200px)and (max-width: 700px) {
+    #row7{
+     display:flex;
+     flex-direction: column;
+     justify-content: space-between;
+     align-items: flex-start;
+     flex-wrap: wrap;
+       /* New font size for screens less than 600px */
+    }
+  }
+
+  #letusknon{
+    cursor: pointer;
+  }
+  #letusknow:hover{
+    /* color:red; */
+    cursor: pointer;
+  }

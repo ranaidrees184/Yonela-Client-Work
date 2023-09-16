@@ -1,0 +1,213 @@
+.learnmorediv1{
+    display:flex;
+    flex-direction: row;
+    margin:30px;
+}
+@media (min-width:200px)and (max-width: 700px) {
+    .learnmorediv1{
+        display:flex;
+        flex-direction:column;
+       /* New font size for screens less than 600px */
+    }
+  }
+
+.div1heading{
+    font-size: 48px;
+    margin:20px 20px 20px 0px;
+    color:black;
+}
+.div1leftsidelm{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+@media (min-width:200px)and (max-width: 700px) {
+    img{
+        max-width: 80vw;
+       /* New font size for screens less than 600px */
+    }
+  }
+
+  .div1btn{
+    margin:20px20px 20px 0px;
+  }
+  .outerdivforrow2{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    margin:80px 30px 80px 30px;
+  }
+  .div2spantetxt{
+    margin:30px 30px 30px 0px;
+    font-size: 18px;
+    color:black;
+  }
+  #div3{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin:60px 30px 60px 30px;
+  }
+  @media (min-width:200px)and (max-width: 600px) {
+    #div3{
+        display:flex;
+        flex-direction:column;
+        justify-content: flex-start;
+        align-items: flex-start;
+       /* New font size for screens less than 600px */
+    }
+  }
+  .Div5withimgonright{
+    display:flex;
+    flex-direction: row;
+    margin:50px 30px 50px 30px;
+    
+  }
+  @media (min-width:200px)and (max-width: 600px) {
+    .Div5withimgonright{
+        display:flex;
+        flex-direction:column;
+        justify-content: flex-start;
+        align-items: flex-start;
+       /* New font size for screens less than 600px */
+    }
+  }
+
+  .imgonrightside{
+    max-width: 50vw;
+    border-radius: 05px;
+  }
+  @media (min-width:200px)and (max-width: 600px) {
+    .imgonrightside{
+        max-width: 80vw;
+    }
+  }
+
+  .div5leftsidetext{
+    margin:20px 70px 20px 0px;
+  }
+
+  .div5spantextonleft{
+    font-size: 16px;
+  }
+  .headingdiv5leftside{
+    margin:30px 10px 20px 0px;
+    font-size: 48px;
+    font-weight: 700;
+    color:black;
+  }
+  .maindivofchecks{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .maindivof2divs{
+    display:flex;
+    flex-direction: row;
+    margin:30px;
+    
+  }
+
+  @media (min-width:200px)and (max-width: 600px) {
+    .maindivof2divs{
+        display:flex;
+        flex-direction:column;
+        justify-content: flex-start;
+        align-items: flex-start;
+       /* New font size for screens less than 600px */
+    }
+  }
+  @media (min-width:200px)and (max-width: 600px) {
+    .maindivofchecks{
+        display:flex;
+        flex-direction:column;
+        justify-content: flex-start;
+        align-items: flex-start;
+       /* New font size for screens less than 600px */
+    }
+  }
+  .leftsidedivof2maindivs{
+    /* height:500px; */
+    margin:20px;
+    background-color: rgba(127, 225, 255, 0.979);
+    padding:40px;
+    border-radius:10px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .rightsidedivof2maindivs{
+    /* height:500px; */
+    margin:20px;
+    background-color:black;
+    color:white;
+    padding:40px;
+    border-radius:10px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+  }
+
+  
+  @media (min-width:200px)and (max-width: 600px) {
+    .rightsidedivof2maindivs{
+       max-width: 80vw;
+       /* New font size for screens less than 600px */
+    }
+  }
+  .buttonrightsidediv{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: self-end;
+  }
+
+  @media (min-width:200px)and (max-width: 600px) {
+    .buttonrightsidediv{
+       display:flex;
+       flex-direction: column;
+       /* New font size for screens less than 600px */
+    }
+  }
+  .rightsidedivbtn{
+    background-color:red;
+    color:white;
+    padding:05px;
+    border-radius: 05px;
+    border:none;
+  
+  }
+  .rightdivimg{
+    border-top-left-radius: 70px;
+    border-bottom-left-radius: 70px;
+  }
+  @media (min-width:200px)and (max-width: 600px) {
+    .rightdivimg{
+       max-width: 60vw;
+       /* New font size for screens less than 600px */
+    }
+  }
+  .languagespanofleftdiv{
+    background-color: red;
+    color:white;
+    padding:10px;
+    border-radius: 30px;
+    margin:20px;
+    /* margin-bottom: 40px; */
+  }
+  .maindivofspan{
+    margin:30px 10px 30px 05px;
+  }
+  @media (min-width:200px)and (max-width: 500px) {
+    .maindivofspan{
+       display:flex;
+       flex-direction: column;
+       /* New font size for screens less than 600px */
+    }
+  }
+  .individualheading2{
+    font-weight: 700;
+    font-size: 48px;
+  }

@@ -1,0 +1,77 @@
+.contactdiv3btn{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.contctdiv4img{
+    margin:30px;
+}
+.contactimg{
+    width:93vw;
+    border-radius: 05px;
+}
+@media (min-width:200px)and (max-width: 700px) {
+    .contactimg {
+     max-width: 80vw;
+       /* New font size for screens less than 600px */
+    }
+  }
+
+  .divlocation{
+    height:300px;
+    display:flex;
+    flex-direction: column;
+    margin:30px;
+    justify-content: center;
+  }
+  .locationhead{
+    font-size: 48px;
+    font-weight: 700;
+    color:black ;
+  }
+  .locationspan{
+    color:black;
+    font-size: 20px;
+  }
+
+  .mainlocationsdiv{
+    margin:30px;
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items:flex-start;
+
+  }
+  @media (min-width:200px)and (max-width: 500px) {
+    .mainlocationsdiv{
+        display:flex;
+        flex-direction: column;
+    }
+  }
+
+  .divlocationpartbody{
+    margin-right:80px;
+  }
+  .locationhead3{
+    font-size: 30px;
+    font-weight: 700;
+
+  }
+  .locationcitytextspan{
+    font-size: 20px;
+  }
+  .locationphno{
+    text-decoration: none;
+    color:black;
+    font-size: 20px;
+  }
+  .locationphno:hover{
+    color:red;
+  }
+  #line5{
+    height:01px;
+    max-width: 70px;
+  }
+  

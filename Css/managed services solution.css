@@ -1,0 +1,227 @@
+.solutionlearnmore{
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding:100px 30px 30px 30px;
+    background-color: red;
+}
+.sollearnmorebtn{
+    font-size:10px;
+    background-color: rgb(155, 7, 7);
+    border-radius: 05px;
+    color:white;
+    padding:05px;
+}
+.sollearndiv2head{
+    color:white;
+    margin:20px 20px 20px 0px;
+    font-size:48px;
+    font-weight: 700;
+}
+.sollearndiv1span{
+    font-size:30px;
+    color:white;
+}
+.sollearndiv1btn2{
+    margin:10px;
+    padding:10px;
+    background-color: beige;
+    color:red;
+    border-radius: 05px;
+}
+
+.solloadmorediv3{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin:60px 30px;
+}
+
+@media (min-width:200px)and (max-width: 600px) {
+    .solloadmorediv3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+       /* New font size for screens less than 600px */
+    }
+  }
+
+.solloaddiv3leftside{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin:30px 60px 30px 0px;
+    /* padding:30px 20px 30px 0px; */
+}
+.diiv3lefthead{
+    font-weight: 600;
+    color:black;
+    font-size: 30px;
+}
+.div3leftsidespantext{
+    font-size: 16px;
+}
+
+.div3leftsidetwodivs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin:30px 30px 30px 30px;
+}
+
+@media (min-width:200px)and (max-width: 600px) {
+    .div3leftsidetwodivs {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+       /* New font size for screens less than 600px */
+    }
+  }
+  .div3headnadcheck{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .div3chexk{
+    height:20px;
+    width:20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    color:white;
+    border-radius: 50%;
+    margin:10px;
+  }
+  .fa-check{
+    font-size: 12px;
+    font-weight: 700;
+
+  }
+  .div3checkhead{
+    font-weight: 700;
+    font-size: 18px;
+  }
+  .div3spantextcheck{
+   margin:20px;
+    font-size: 14px;
+  }
+
+  .imagediv3{
+    border-radius: 10px;
+  }
+  .div4ofleftimg{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin:30px;
+  }
+  @media (min-width:200px)and (max-width: 600px) {
+    .div4ofleftimg {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+       /* New font size for screens less than 600px */
+    }
+  }
+  .leftimgdiv4{
+     border-radius:05px;
+  }
+  @media (min-width:200px)and (max-width: 600px) {
+    .leftimgdiv4{
+       max-width: 80vw;
+       /* New font size for screens less than 600px */
+    }
+  }
+  .div4rightdiv{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin:30px;
+    padding:50px 10px 30px 10px;
+  }
+  .div4righthead{
+    font-weight: 700;
+    font-size: 24px;
+  }
+  .div4rightspan{
+    font-size: 16px;
+  }
+
+  .Div5loadmore{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin:30px;
+    padding:50px 10px 30px 0px;
+  }
+  @media (min-width:200px)and (max-width: 600px) {
+    .Div5loadmore{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+       /* New font size for screens less than 600px */
+    }
+  }
+  /* .div5leftpart{
+            margin-right:100px;
+  } */
+  .div5head{
+    line-height: normal;
+    padding:20px 20px 20px 0px;
+    font-weight: 700;
+    font-size: 48px;
+  }
+  .div5leftspantext{
+    font-size: 16px;
+  }
+  .div5rightpart{
+    margin:10px;
+    /* padding:30px; */
+  }
+  .div5rightpartinside{
+        margin:20px;
+
+  }
+  .div5rightspantext{
+    font-size: 14px;
+  }
+  .div5rightdarkspan{
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .middleheading{
+    DISPLAY:FLEX;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin:30px;
+  }
+  .midheadset{
+    font-size: 32px;
+    font-weight: 700;
+  }
+  .circle{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height:20px;
+       width: 20px;
+    border: none;
+      border-radius: 50%;
+      margin:05px;
+     background-color: red;
+  }
+  .circleandhead{
+    display:flex;
+    flex-direction: row;
+  }
